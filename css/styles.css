@@ -1,0 +1,326 @@
+body {
+    font-family: sans-serif;
+}
+
+.main-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 50px;
+}
+
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.premium-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.shoes-text {
+    font-family: 'Playfair Display', serif;
+    color: #542A33;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation li:not(li:last-child) {
+    margin-right: 80px;
+}
+
+.user-icons {
+    display: flex;
+}
+
+.user-icons li:first-child {
+    width: 27px;
+    height: 27px;
+    background: url("../img/search.png");
+}
+
+.user-icons li:nth-child(2) {
+    width: 27px;
+    height: 27px;
+    background: url("../img/user.png");
+}
+
+.user-icons li:last-child {
+    width: 27px;
+    height: 27px;
+    background: url("../img/shopping-cart.png");
+}
+
+.user-icons li:not(li:last-child) {
+    margin-right: 20px;
+}
+
+.top-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-banner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-banner .left-block {
+    width: 70%;
+    height: 482px;
+    background: url("../img/top-banner-main.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-block-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+}
+
+.top-banner .left-block h6 {
+    font-weight: bold;
+    font-size: 48px;
+    color: #C4C4C4;
+    text-align: center;
+}
+
+.top-banner .left-block p, .right-block p {
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.btn {
+    width: 215px;
+    height: 52px;
+    background: #B39151;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-banner .right-block {
+    width: 30%;
+    height: 480px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-block > div {
+    height: 230px;
+}
+
+.right-block > div:first-child {
+    background: url("../img/top-banner-right1.jpg");
+}
+
+.right-block > div:last-child {
+    background: url("../img/top-banner-right.jpg");
+}
+
+.right-block > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.right-block p {
+    margin-bottom: 20px;
+}
+
+.shadow {
+    height: 94px;
+    width: 100%;
+    background: url("../img/shadow-texture.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-shadow {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/big-shadow-texute.png");
+}
+
+.brand-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.brand-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    font-weight: bold;
+}
+
+.top-galleria, .most-popular-products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.top-galleria > h3, .top-galleria > p, .most-popular-products > h3, .most-popular-products > p {
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.block-title-h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.top-galleria-shadow {
+    height: 100%;
+    background: black;
+    opacity: 0.6;
+}
+
+.top-galleria-shadow:hover {
+    opacity: 0;
+    transition: 0.6s;
+}
+
+.galleria-section, .most-popular-products-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.galleria-section > div {
+    width: 285px;
+    height: 285px;
+}
+
+.galleria-section > div:first-child {
+    background: url("../img/beckett-simonon-dunham-derby-pull-up-dark-brown-lifestyle-2 1.jpg");
+}
+
+.galleria-section > div:nth-child(2) {
+    background: url("../img/beckett-simonon-types-of-shoes-oxfords 1.jpg");
+}
+
+.galleria-section > div:nth-child(3) {
+    background: url("../img/Top-5-Crockett-and-Jones-Monk-Shoes-Banner 1.jpg");
+}
+
+.galleria-section > div:last-child {
+    background: url("../img/lifestyle-beckett-simonon-cohen-black-1_e8ae8d67-b606-41b0-842d-778178ed5b0a 1.jpg");
+}
+
+.galleria-section p {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 2;
+    bottom: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.most-popular-products-section > div {
+    box-sizing: border-box;
+    width: 285px;
+    height: 317px;
+    border: 1px solid #E3E3E3;
+    padding: 20px;
+}
+
+.most-popular-products-section .item:first-child .item-img {
+    background: url("../img/5de52d845565f8b6377fb90b32e73d64 1.jpg") no-repeat;
+}
+
+.most-popular-products-section .item:nth-child(2) .item-img {
+    background: url("../img/03cd3c74535c92b3f6d8bb1fb622d911 1.jpg") no-repeat;
+}
+
+.most-popular-products-section .item:nth-child(3) .item-img {
+    background: url("../img/berwick_303_dark_brown 4.jpg") no-repeat;
+}
+
+.most-popular-products-section .item:last-child .item-img {
+    background: url("../img/berwick_5150_dark_brown_suede 1.jpg") no-repeat;
+}
+
+.item-img {
+    width: 163px;
+    height: 163px;
+    align-self: center;
+    background-repeat: no-repeat;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.item-price {
+    text-align: right;
+
+}
+
+.item-title, .item-price {
+    font-weight: bold;
+}
