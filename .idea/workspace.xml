@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Black.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BlackItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamPro.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/3729.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/3999754 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/GettyImages-538772642 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/GothamPro.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Group 3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Group 4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Group 5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ivan-zhukevich-7ZC4qO3Gj6g-unsplash 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jia-ye-erHlzWCN6zQ-unsplash 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/rosie-fraser-IPcGLLgcABk-unsplash 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/toallitas_humedas.jpg" afterDir="false" />
+    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="almost done, FOOTER!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -148,8 +100,16 @@
       <workItem from="1612030739667" duration="9438000" />
       <workItem from="1612122952107" duration="9505000" />
       <workItem from="1612175711930" duration="129000" />
-      <workItem from="1612177532779" duration="9652000" />
+      <workItem from="1612177532779" duration="10280000" />
     </task>
+    <task id="LOCAL-00001" summary="almost done, FOOTER!">
+      <created>1612189960286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612189960286</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="almost done, FOOTER!" />
+    <option name="LAST_COMMIT_MESSAGE" value="almost done, FOOTER!" />
   </component>
 </project>

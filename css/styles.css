@@ -467,3 +467,23 @@ header {
 .column-1 > div:last-child .card-title, .column-2 > div:first-child .card-title, .column-3 > div:last-child .card-title{
     bottom: 240px;
 }
+
+footer {
+    height: 432px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+footer ul li:first-child {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer ul li:not(li:first-child){
+    margin-bottom: 10px;
+}
