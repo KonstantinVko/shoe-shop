@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="" />
+    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BlackItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BoldItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-LightItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-MediumItalic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamPro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Medium.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/GothamProNarrow-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3729.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3999754 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/GettyImages-538772642 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/GothamPro.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Group 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Group 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Group 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/ivan-zhukevich-7ZC4qO3Gj6g-unsplash 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jia-ye-erHlzWCN6zQ-unsplash 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rosie-fraser-IPcGLLgcABk-unsplash 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/toallitas_humedas.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,6 +114,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -95,6 +148,7 @@
       <workItem from="1612030739667" duration="9438000" />
       <workItem from="1612122952107" duration="9505000" />
       <workItem from="1612175711930" duration="129000" />
+      <workItem from="1612177532779" duration="9652000" />
     </task>
     <servers />
   </component>
@@ -112,5 +166,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

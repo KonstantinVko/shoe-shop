@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: "Gotham Pro", sans-serif;
 }
 
 .main-container {
@@ -210,9 +210,10 @@ header {
     margin-top: 100px;
 }
 
-.top-galleria > h3, .top-galleria > p, .most-popular-products > h3, .most-popular-products > p {
+.top-galleria > h3, .top-galleria > p, .most-popular-products > h3, .most-popular-products > p, .read-banner-text > p, .read-banner-text h3, .email-sub h3, .email-sub p {
     width: 65%;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .block-title-h3 {
@@ -228,11 +229,16 @@ header {
     opacity: 0.6;
 }
 
-.top-galleria-shadow:hover {
-    opacity: 0;
-    transition: 0.6s;
-}
 
+.galleria-section > div:hover  .top-galleria-shadow {
+    opacity: 0;
+    transition:opacity 1s
+
+}
+.bottom-galleria-section > div > div:hover .top-galleria-shadow {
+    opacity: 0;
+    transition:opacity 0.6s;
+}
 .galleria-section, .most-popular-products-section {
     width: 100%;
     display: flex;
@@ -242,6 +248,7 @@ header {
 .galleria-section > div {
     width: 285px;
     height: 285px;
+    cursor: pointer;
 }
 
 .galleria-section > div:first-child {
@@ -323,4 +330,140 @@ header {
 
 .item-title, .item-price {
     font-weight: bold;
+}
+.read-banner {
+    display: flex;
+    margin-top: 100px;
+}
+.read-banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.read-banner-img {
+    width: 30%;
+    height: 339px;
+    background: url("../img/rosie-fraser-IPcGLLgcABk-unsplash 1.jpg");
+}
+.email-sub {
+    background: #4A443E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.email-sub > div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.email-sub-img {
+    width: 40%;
+    height: 394px;
+    background: url("../img/3999754 1.jpg") no-repeat;
+}
+.email-sub h3 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+.email-sub p {
+    color: #FFFFFF;
+}
+.email-input-block, .email-input-block label {
+    display: flex;
+}
+.email-input-block label {
+    margin-right: 20px;
+}
+.email-input-block input[type='email'] {
+    color: #FFFFFF;
+    outline: none;
+    border: transparent;
+    border-bottom: 1px solid #FFFFFF;
+    background: transparent;
+    padding-top: 20px;
+    width: 250px;
+}
+.email-input-block ::placeholder {
+    color: #FFFFFF;
+}
+.bottom-galleria {
+    margin-top: 100px;
+}
+.bottom-galleria > h3 {
+    margin-bottom: 50px;
+}
+.bottom-galleria-section {
+    display: flex;
+}
+.column-2 {
+    margin: 0 20px;
+}
+.column-1, .column-2, .column-3 {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 700px;
+    background-size: cover;
+}
+.column-1 > div:first-child {
+    background: url("../img/Group 3.png") no-repeat;
+    margin-bottom: 20px;
+    height: 30%;
+    background-size: cover;
+}
+.column-1 > div:last-child {
+    background: url("../img/Group 4.png") no-repeat;
+    height: 70%;
+    background-size: cover;
+}
+.column-2 > div:first-child {
+    background: url("../img/Group 5.png") no-repeat;
+    height: 70%;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.column-2 > div:last-child {
+    background: url("../img/ivan-zhukevich-7ZC4qO3Gj6g-unsplash 1.jpg") no-repeat;
+    height: 30%;
+    background-size: cover;
+}
+.column-3 > div:first-child {
+    background: url("../img/jia-ye-erHlzWCN6zQ-unsplash 2.png") no-repeat;
+    height: 30%;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+.column-3 > div:last-child {
+    background: url("../img/GettyImages-538772642 1.png") no-repeat;
+    height: 70%;
+    background-size: cover;
+}
+.card-title p {
+    color: #FFFFFF;
+}
+.card-title p:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.card-title p:last-child:hover {
+    text-decoration: underline;
+}
+.card-title {
+    z-index: 3;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.card-title {
+    bottom: 115px;
+}
+.column-1 > div:last-child .card-title, .column-2 > div:first-child .card-title, .column-3 > div:last-child .card-title{
+    bottom: 240px;
 }
