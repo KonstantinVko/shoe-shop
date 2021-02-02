@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -18,25 +20,34 @@
 </head>
 <body>
 <div class="main-container">
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="premium shoes">
-            <div class="logo-text">
-                <span class="premium-text">Premium</span>
-                <span class="shoes-text">Shoes</span>
+    <header id="top">
+        <a href="#top">
+            <div class="logo">
+                <img src="img/logo.png" alt="premium shoes">
+                <div class="logo-text">
+                    <span class="premium-text">Premium</span>
+                    <span class="shoes-text">Shoes</span>
+                </div>
             </div>
-        </div>
+        </a>
         <div class="menu">
             <ul class="navigation">
                 <li>Каталог</li>
-                <li>Акции</li>
-                <li>Аксессуары</li>
-                <li>Шузинг</li>
+                <li class="two">Акции</li>
+                <li class="three">Аксессуары</li>
+                <li class="four">Шузинг</li>
+                <hr>
             </ul>
             <ul class="user-icons">
+                <li>
+                    <form id="search_animated">
+                        <label>
+                            <input type="search" placeholder="Поиск">
+                        </label>
+                    </form>
+                </li>
                 <li></li>
-                <li></li>
-                <li></li>
+                <li><span id="clicks" style="display: none"></span></li>
             </ul>
         </div>
     </header>
@@ -53,15 +64,20 @@
                 </div>
             </div>
             <div class="right-block">
-                <div>
-                    <div class="shadow">
-                        <p>Loake — дух Англии</p>
+                <div class="card card-1">
+                    <div class="card-content">
+                        <p>Loake — это синоним качества, неоднократно проверенного временем.</p>
+                        <button class="btn">Читать статью</button>
                     </div>
+                    <div class="shadow"><p>Loake — дух Англии</p></div>
                 </div>
-                <div>
-                    <div class="shadow">
-                        <p>Как подобрать обувь к джинсам?</p>
+                <div class="card card-2">
+                    <div class="card-content">
+                        <p>Как правильно подобрать обувь к джинсам. Разбираемся.</p>
+                        <button class="btn">Читать статью</button>
                     </div>
+                    <div class="shadow"><p>Как подобрать обувь
+                        к джинсам?</p></div>
                 </div>
             </div>
         </div>
@@ -114,6 +130,12 @@
                     <p class="item-color">Цвет: Black</p>
                     <p class="item-price">1026 руб.</p>
                 </div>
+                <button onclick="clickME()" class="addToCart-1">
+                    <span class="buttonText">Добавить в корзину</span>
+                    <div class="buttonIcon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </button>
             </div>
             <div class="item">
                 <div class="item-img"></div>
@@ -123,6 +145,12 @@
                     <p class="item-color">Цвет: Brown</p>
                     <p class="item-price">760 руб.</p>
                 </div>
+                <button class="addToCart-1">
+                    <span class="buttonText">Добавить в корзину</span>
+                    <div class="buttonIcon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </button>
             </div>
             <div class="item">
                 <div class="item-img"></div>
@@ -132,6 +160,12 @@
                     <p class="item-color">Цвет: Dark Brown</p>
                     <p class="item-price">700 руб.</p>
                 </div>
+                <button class="addToCart-1">
+                    <span class="buttonText">Добавить в корзину</span>
+                    <div class="buttonIcon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </button>
             </div>
             <div class="item">
                 <div class="item-img"></div>
@@ -141,6 +175,12 @@
                     <p class="item-color">Цвет: Black</p>
                     <p class="item-price">580 руб.</p>
                 </div>
+                <button class="addToCart-1">
+                    <span class="buttonText">Добавить в корзину</span>
+                    <div class="buttonIcon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </button>
             </div>
         </div>
     </div>
@@ -222,42 +262,41 @@
     </div>
     <footer>
         <div class="footer-wrap">
-        <div class="logo">
-            <img src="img/logo.png" alt="premium shoes">
-            <div class="logo-text">
-                <span class="premium-text">Premium</span>
-                <span class="shoes-text">Shoes</span>
+            <div class="logo">
+                <img src="img/logo.png" alt="premium shoes">
+                <div class="logo-text">
+                    <span class="premium-text">Premium</span>
+                    <span class="shoes-text">Shoes</span>
+                </div>
             </div>
-        </div>
-        <ul>
-            <li>Бренды</li>
-            <li>Berwick</li>
-            <li>Loake</li>
-            <li>Michel</li>
-            <li>Swims</li>
-            <li>Herring</li>
-            <li>Alto Milano</li>
-            <li>Carmina</li>
-            <li>Tricker's</li>
-        </ul>
-        <ul>
-            <li>Покупателям</li>
-            <li>Акции</li>
-            <li>Доставка и оплата</li>
-            <li>Гарантия и возврат</li>
-            <li>Средства по уходу</li>
-            <li>Шузинг</li>
-        </ul>
-        <ul>
-            <li>Контакты</li>
-            <li>+375 (29) 337-12-38</li>
-            <li>+375 (29) 145-12-38</li>
-            <li>premiumsh@mail.ru</li>
-        </ul>
+            <ul>
+                <li>Бренды</li>
+                <li>Berwick</li>
+                <li>Loake</li>
+                <li>Michel</li>
+                <li>Swims</li>
+                <li>Herring</li>
+                <li>Alto Milano</li>
+                <li>Carmina</li>
+                <li>Tricker's</li>
+            </ul>
+            <ul>
+                <li>Покупателям</li>
+                <li>Акции</li>
+                <li>Доставка и оплата</li>
+                <li>Гарантия и возврат</li>
+                <li>Средства по уходу</li>
+                <li>Шузинг</li>
+            </ul>
+            <ul>
+                <li>Контакты разработчика</li>
+                <li><a href="tel: +375298632846">+375 (29) 863-28-46</a></li>
+                <li><a href="mailto:undess222@gmail.com">undess222@gmail.com</a></li>
+                <li>Константин Вороненко <i class="far fa-registered"></i></li>
+            </ul>
         </div>
     </footer>
 </div>
-<script>
-</script>
+<script src="js/training_chill.js"></script>
 </body>
 </html>
