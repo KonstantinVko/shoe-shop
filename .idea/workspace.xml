@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="almost done, FOOTER!">
+    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="media q's">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -71,7 +71,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -100,7 +99,9 @@
       <workItem from="1612030739667" duration="9438000" />
       <workItem from="1612122952107" duration="9505000" />
       <workItem from="1612175711930" duration="129000" />
-      <workItem from="1612177532779" duration="10280000" />
+      <workItem from="1612177532779" duration="10634000" />
+      <workItem from="1612247524928" duration="24910000" />
+      <workItem from="1612333621911" duration="20120000" />
     </task>
     <task id="LOCAL-00001" summary="almost done, FOOTER!">
       <created>1612189960286</created>
@@ -109,7 +110,42 @@
       <option name="project" value="LOCAL" />
       <updated>1612189960286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done?">
+      <created>1612190482538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612190482538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="did much, SHOPPING CART">
+      <created>1612277639625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612277639625</updated>
+    </task>
+    <task id="LOCAL-00004" summary="media q's">
+      <created>1612345642983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612345642983</updated>
+    </task>
+    <task id="LOCAL-00005" summary="media q's">
+      <created>1612346425452</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612346425452</updated>
+    </task>
+    <task id="LOCAL-00006" summary="media q's">
+      <created>1612359495549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612359495549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +166,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="almost done, FOOTER!" />
-    <option name="LAST_COMMIT_MESSAGE" value="almost done, FOOTER!" />
+    <MESSAGE value="done?" />
+    <MESSAGE value="did much, SHOPPING CART" />
+    <MESSAGE value="media q's" />
+    <option name="LAST_COMMIT_MESSAGE" value="media q's" />
   </component>
 </project>
