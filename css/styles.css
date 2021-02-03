@@ -525,7 +525,11 @@ input::-webkit-input-placeholder {
 .most-popular-products-section .item:last-child .item-img {
     background: url("../img/berwick_5150_dark_brown_suede 1.jpg") no-repeat;
 }
-
+.mpp-s-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 .addToCart-1 {
     background: #b39151;
@@ -1503,7 +1507,7 @@ nav ul.sub li a:hover {
 }
 
 @media all and (max-width: 1070px) {
-    .most-popular-products-section {
+    .mpp-s-row {
         flex-direction: column;
     }
 
@@ -1722,8 +1726,22 @@ nav ul.sub li a:hover {
     }
     .most-popular-products-section {
         flex-direction: row;
-        width: 1000px;
-        overflow: scroll;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    .most-popular-products-section .most-popular-products-row > div {
+        width: 270px;
+        min-width: 270px;
+    }
+    .most-popular-products-row:first-child {
+        margin-right: 20px;
+    }
+    .mpp-s-row {
+        flex-direction: row;
+        width: auto;
+    }
+    .galleria-row:first-child {
+        justify-content: space-between;
     }
 }
 
