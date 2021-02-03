@@ -16,17 +16,20 @@ a, a:visited, a:hover, a:active {
 
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    margin-bottom: 50px;
+    width: 100%;
 }
 header a, header a:visited, header a:hover, header a:active {
     text-decoration: none;
     color: black;
 }
-
+.header-wrap {
+    max-width: 1280px;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
 .logo {
     width: 20%;
     display: flex;
@@ -390,6 +393,7 @@ input::-webkit-input-placeholder {
     margin-top: 100px;
 }
 
+
 .top-galleria > h3, .top-galleria > p, .most-popular-products > h3, .most-popular-products > p, .read-banner-text > p, .read-banner-text h3, .email-sub h3, .email-sub p {
     width: 65%;
     margin-bottom: 50px;
@@ -409,11 +413,16 @@ input::-webkit-input-placeholder {
     opacity: 0.6;
 }
 
-
-.galleria-section > div:hover .top-galleria-shadow {
+.galleria-row {
+    display: flex;
+    width: 50%;
+}
+.galleria-row > div:not(div:last-child) {
+    margin-right: 20px;
+}
+.galleria-row > div:hover .top-galleria-shadow {
     opacity: 0;
     transition: opacity 1s
-
 }
 
 .bottom-galleria-section > div > div:hover .top-galleria-shadow {
@@ -427,26 +436,30 @@ input::-webkit-input-placeholder {
     justify-content: space-between;
 }
 
-.galleria-section > div {
+.galleria-section .galleria-row > div {
     width: 285px;
     height: 285px;
     cursor: pointer;
 }
-
-.galleria-section > div:first-child {
-    background: url("../img/beckett-simonon-dunham-derby-pull-up-dark-brown-lifestyle-2 1.jpg");
+.galleria-row:first-child {
+    margin-right: 20px;
+    justify-content: flex-end;
 }
 
-.galleria-section > div:nth-child(2) {
-    background: url("../img/beckett-simonon-types-of-shoes-oxfords 1.jpg");
+.galleria-section .galleria-row:first-child > div:first-child {
+    background: url("../img/beckett-simonon-dunham-derby-pull-up-dark-brown-lifestyle-2 1.jpg") top;
 }
 
-.galleria-section > div:nth-child(3) {
-    background: url("../img/Top-5-Crockett-and-Jones-Monk-Shoes-Banner 1.jpg");
+.galleria-section .galleria-row:first-child > div:last-child {
+    background: url("../img/beckett-simonon-types-of-shoes-oxfords 1.jpg") top;
 }
 
-.galleria-section > div:last-child {
-    background: url("../img/lifestyle-beckett-simonon-cohen-black-1_e8ae8d67-b606-41b0-842d-778178ed5b0a 1.jpg");
+.galleria-section .galleria-row:last-child> div:first-child {
+    background: url("../img/Top-5-Crockett-and-Jones-Monk-Shoes-Banner 1.jpg") top;
+}
+
+.galleria-section .galleria-row:last-child> div:last-child {
+    background: url("../img/lifestyle-beckett-simonon-cohen-black-1_e8ae8d67-b606-41b0-842d-778178ed5b0a 1.jpg") top;
 }
 
 .galleria-section p {
@@ -461,9 +474,9 @@ input::-webkit-input-placeholder {
     text-align: center;
 }
 
-.most-popular-products-section > div {
+.most-popular-products-section .most-popular-products-row > div {
     box-sizing: border-box;
-    width: 285px;
+    width: 50%;
     height: 370px;
     border: 1px solid #E3E3E3;
     padding: 20px;
@@ -495,7 +508,8 @@ input::-webkit-input-placeholder {
     margin-top: 10px;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
-}
+    display: flex;}
+
 
 .addToCart-1:active {
     -webkit-transform: scale(0.91);
@@ -512,14 +526,13 @@ input::-webkit-input-placeholder {
     z-index: 2;
     transition: all 0.2s;
     width: calc(100% - 37px);
-    padding: 7px 32px;
+    padding: 7px 0;
     white-space: nowrap;
 }
 .addToCart-1 .buttonIcon {
     width: 37px;
     vertical-align: middle;
     text-align: center;
-    display: table-cell;
     overflow: hidden;
     border-radius: 0 2px 2px 0;
     transition: background 0.2s cubic-bezier(0, 0, 0.2, 1), color 0.1s, border-radius 0.1s linear 0.1s, all 0.2s;
@@ -528,7 +541,12 @@ input::-webkit-input-placeholder {
     background-size: 200% 100%;
     background-position: 99% 0;
     background-image: linear-gradient(to right, #b39151 50%, #fff 50%);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .addToCart-1:hover {
     cursor: pointer;
 }
@@ -666,40 +684,40 @@ input::-webkit-input-placeholder {
 }
 
 .column-1 > div:first-child {
-    background: url("../img/Group 3.png") no-repeat;
+    background: url("../img/Group 3.png") no-repeat top;
     margin-bottom: 20px;
     height: 30%;
     background-size: cover;
 }
 
 .column-1 > div:last-child {
-    background: url("../img/Group 4.png") no-repeat;
+    background: url("../img/Group 4.png") no-repeat top;
     height: 70%;
     background-size: cover;
 }
 
 .column-2 > div:first-child {
-    background: url("../img/Group 5.png") no-repeat;
+    background: url("../img/Group 5.png") no-repeat top;
     height: 70%;
     margin-bottom: 20px;
     background-size: cover;
 }
 
 .column-2 > div:last-child {
-    background: url("../img/ivan-zhukevich-7ZC4qO3Gj6g-unsplash 1.jpg") no-repeat;
+    background: url("../img/ivan-zhukevich-7ZC4qO3Gj6g-unsplash 1.jpg") no-repeat top;
     height: 30%;
     background-size: cover;
 }
 
 .column-3 > div:first-child {
-    background: url("../img/jia-ye-erHlzWCN6zQ-unsplash 2.png") no-repeat;
+    background: url("../img/jia-ye-erHlzWCN6zQ-unsplash 2.png") no-repeat top;
     height: 30%;
     margin-bottom: 20px;
     background-size: cover;
 }
 
 .column-3 > div:last-child {
-    background: url("../img/GettyImages-538772642 1.png") no-repeat;
+    background: url("../img/GettyImages-538772642 1.png") no-repeat top;
     height: 70%;
     background-size: cover;
 }
@@ -1076,7 +1094,7 @@ nav {
     top: 0;
     right: 0;
     height: 100%;
-    max-width: 515px;
+    max-width: 50%;
     width: 100%;
     padding: 100px 40px 60px 40px;
     overflow-y: auto;
@@ -1091,6 +1109,8 @@ nav {
     transition: transform 0.55s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 nav.show {
+    width: 50%;
+    max-width: 50%;
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
     -ms-transform: translateX(0px);
@@ -1312,17 +1332,115 @@ nav ul.sub li a:hover {
         margin-right: 20px;
     }
 }
-@media all and (max-width: 950px){
+@media all and (max-width: 1070px){
+.most-popular-products-section {
+    flex-direction: column;
+}
+    .most-popular-products-row {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .most-popular-products-row:first-child {
+        justify-content: center;
+    }
+    .most-popular-products-section .most-popular-products-row > div {
+        width: 40%;
+    }
+}
+@media all and (max-width: 950px) {
     ul.navigation {
         display: none;
     }
+
     .burger, header nav {
         display: block;
     }
+
     .menu {
         justify-content: flex-end;
     }
+
     ul.user-icons {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        background: white;
+        position: fixed;
+        z-index: 99999999;
+    }
+
+    .top-banner {
+        margin-top: 100px;
+    }
+
+    input[type=search] {
+        background: transparent;
+        width: 100%;
+    }
+
+    input[type=search]:focus, input[type=search]:hover {
+        background: #ffffff;
+        width: 100%;
+    }
+
+    input[type=search]::placeholder {
+        color: #ffffff;
+        font-family: "Raleway", sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+        font-weight: 600;
+    }
+
+    input[type=search]::placeholder:focus {
+        color: #2a2a2a;
+    }
+
+    .top-banner-wrap {
+        flex-direction: column;
+    }
+
+    .top-banner .left-block, .top-banner .right-block {
+        width: 100%;
+    }
+
+    .top-banner .right-block {
+        flex-direction: row;
+        margin: 20px 0 0 0;
+        height: auto;
+    }
+    .right-block .card {
+        width: 50%;
+    }
+    .right-block > div:first-child {
+        margin-right: 10px;
+    }
+    .right-block > div:last-child {
+        margin-left: 10px;
+    }
+    .galleria-section {
+        flex-direction: column;
+    }
+    .galleria-row {
+        width: 100%;
+        justify-content: center;
+    }
+    .galleria-row:first-child {
+        margin-right: 0;
+        justify-content: center;
+    }
+    .galleria-row:last-child {
+        margin-top: 20px;
+    }
+    .brand-menu ul {
+        width: 65%;
+    }
+    .email-sub {
         display: none;
     }
 }
