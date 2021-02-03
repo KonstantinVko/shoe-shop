@@ -1744,7 +1744,7 @@ nav ul.sub li a:hover {
         justify-content: space-between;
     }
 }
-@media all and (max-width: 425px){
+@media all and (max-width: 560px){
     .main-container {
         padding: 0 10px;
     }
