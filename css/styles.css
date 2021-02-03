@@ -1744,4 +1744,25 @@ nav ul.sub li a:hover {
         justify-content: space-between;
     }
 }
+@media all and (max-width: 425px){
+    .main-container {
+        padding: 0 10px;
+    }
+    .left-block {
+        height: 368px;
+    }
+    .left-block-wrap {
+        height: 60%;
+        width: 95%;
+    }
+    .galleria-section .galleria-row > div {
+        height: 200px;
+}
+    .galleria-section .galleria-row > div {
+        background-position: bottom;
+    }
+    .galleria-section .galleria-row:first-child > div:first-child, .galleria-section .galleria-row:first-child > div:last-child, .galleria-section .galleria-row:last-child > div:first-child, .galleria-section .galleria-row:last-child > div:first-child {
+       background-position: bottom;
+    }
+}
 
