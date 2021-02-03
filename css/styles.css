@@ -17,6 +17,7 @@ a, a:visited, a:hover, a:active {
 
 header {
     width: 100%;
+    margin-bottom: 100px;
 }
 header a, header a:visited, header a:hover, header a:active {
     text-decoration: none;
@@ -24,11 +25,11 @@ header a, header a:visited, header a:hover, header a:active {
 }
 .header-wrap {
     max-width: 1280px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 .logo {
     width: 20%;
