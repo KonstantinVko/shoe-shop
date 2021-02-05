@@ -1760,20 +1760,20 @@ nav ul.sub li a:hover {
     .galleria-section .galleria-row > div {
         height: 200px;
 }
-    .galleria-section .galleria-row > div {
-        background-position: bottom;
-    }
     .galleria-section .galleria-row:first-child > div:first-child, .galleria-section .galleria-row:first-child > div:last-child, .galleria-section .galleria-row:last-child > div:first-child, .galleria-section .galleria-row:last-child > div:first-child {
-       background-position: bottom;
+        background-position: -21px -62px;
     }
     .top-banner .left-block {
-        height: 200px;
+        height: 250px;
     }
     .top-banner .left-block h6 {
         font-size: 30px;
     }
     .galleria-section p {
         font-size: 25px;
+    }
+    .galleria-section .galleria-row:last-child > div:last-child {
+        background-position: -6px -34px;
     }
 }
 
