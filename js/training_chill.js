@@ -12,20 +12,20 @@ function render() {
 }
 
 function addItem1(){
-    shoppingCart.item1 = 'Parlament Oxfords';
+    shoppingCart.item = 'Parlament Oxfords';
     render();
 }
 
 function addItem2(){
-    shoppingCart.item2 = 'Loake Chester';
+    shoppingCart.item = 'Loake Chester';
     render()
 }
 function addItem3(){
-    shoppingCart.item3 = 'Berwick 303';
+    shoppingCart.item = 'Berwick 303';
     render()
 }
 function addItem4(){
-    shoppingCart.item4 = 'Berwick 5150';
+    shoppingCart.item = 'Berwick 5150';
     render()
 }
 
