@@ -1,13 +1,36 @@
-let clicks = 0;
+let shoppingCart = {};
 
-function clickME() {
-    clicks += 1;
-    document.getElementById("clicks").innerHTML = clicks;
-    document.getElementById('clicks').style.display = 'inline-flex';
-    document.getElementById("clicks1").innerHTML = clicks;
-    document.getElementById('shopping-cart').style.display = 'block';
-    document.getElementById('clicks1').style.display = 'inline-flex';
+
+function render() {
+    document.getElementById("shopping-cart-header").innerHTML = Object.keys(shoppingCart).length;
+    document.getElementById("fixed-shopping-cart").innerHTML = Object.keys(shoppingCart).length;
+    if (Object.keys(shoppingCart).length > 0) {
+        document.getElementById('shopping-cart-header').style.display = 'flex';
+        document.getElementById('fixed-shopping-cart-body').style.display = 'flex';
+        document.getElementById('fixed-shopping-cart').style.display = 'flex';
+    }
 }
+
+function addItem1(){
+    shoppingCart.item1 = 'Parlament Oxfords';
+    render();
+}
+
+function addItem2(){
+    shoppingCart.item2 = 'Loake Chester';
+    render()
+}
+function addItem3(){
+    shoppingCart.item3 = 'Berwick 303';
+    render()
+}
+function addItem4(){
+    shoppingCart.item4 = 'Berwick 5150';
+    render()
+}
+
+
+
 
 
 // Get the modal
@@ -41,3 +64,5 @@ $('.burger, .overlay').click(function(){
     $('nav').toggleClass('show');
     $('body').toggleClass('overflow');
 });
+
+

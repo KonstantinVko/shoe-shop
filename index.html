@@ -93,7 +93,7 @@
                 </form>
             </li>
             <li id="open-modal"></li>
-            <li><span id="clicks" style="display: none"></span></li>
+            <li><span id="shopping-cart-header" style="display: none"></span></li>
         </ul>
     </div>
     </div>
@@ -278,7 +278,7 @@
                     <p class="item-color">Цвет: Black</p>
                     <p class="item-price">1026 руб.</p>
                 </div>
-                <button onclick="clickME()" class="addToCart-1">
+                <button onclick="addItem1()" class="addToCart-1">
                     <span class="buttonText">Добавить в корзину</span>
                     <div class="buttonIcon">
                         <i class="fas fa-shopping-cart"></i>
@@ -293,7 +293,7 @@
                     <p class="item-color">Цвет: Brown</p>
                     <p class="item-price">760 руб.</p>
                 </div>
-                <button class="addToCart-1">
+                <button class="addToCart-1" onclick="addItem2()">
                     <span class="buttonText">Добавить в корзину</span>
                     <div class="buttonIcon">
                         <i class="fas fa-shopping-cart"></i>
@@ -310,7 +310,7 @@
                     <p class="item-color">Цвет: Dark Brown</p>
                     <p class="item-price">700 руб.</p>
                 </div>
-                <button class="addToCart-1">
+                <button class="addToCart-1" onclick="addItem3()">
                     <span class="buttonText">Добавить в корзину</span>
                     <div class="buttonIcon">
                         <i class="fas fa-shopping-cart"></i>
@@ -325,7 +325,7 @@
                     <p class="item-color">Цвет: Black</p>
                     <p class="item-price">580 руб.</p>
                 </div>
-                <button class="addToCart-1">
+                <button class="addToCart-1" onclick="addItem4()">
                     <span class="buttonText">Добавить в корзину</span>
                     <div class="buttonIcon">
                         <i class="fas fa-shopping-cart"></i>
@@ -450,9 +450,9 @@
             </ul>
         </div>
     </footer>
-    <a href="https://www.onliner.by/">
-        <div id="shopping-cart" class="fixed-shopping-cart">
-            <span id="clicks1">0</span>
+    <a href="shopping-cart.html">
+        <div id="fixed-shopping-cart-body" class="fixed-shopping-cart" style="display: none">
+            <span id="fixed-shopping-cart">0</span>
         </div>
     </a>
 </div>

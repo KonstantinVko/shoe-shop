@@ -87,16 +87,16 @@ hr {
 }
 
 .two:hover ~ hr {
-    margin-left: 85px;
+    margin-left: 144px;
 }
 
 .three:hover ~ hr {
-    margin-left: 168px;
+    margin-left: 287px;
     width: 100px;
 }
 
 .four:hover ~ hr {
-    margin-left: 292px;
+    margin-left: 472px;
 }
 
 .navigation li:first-child, .navigation li:nth-child(2), .navigation li:nth-child(3) {
@@ -827,8 +827,7 @@ footer ul li:not(li:first-child) {
     width: 100px;
 }
 
-#clicks1 {
-    display: none;
+#shopping-cart-header {
     position: absolute;
     align-items: center;
     justify-content: center;
@@ -840,9 +839,16 @@ footer ul li:not(li:first-child) {
     background: red;
     color: white;
 }
-
-.fixed-shopping-cart {
-    display: none;
+#fixed-shopping-cart {
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+    position: relative;
+    left: 70px;
 }
 
 .modal {
@@ -1502,6 +1508,19 @@ nav ul.sub li a:hover {
 @media all and (max-width: 1200px) {
     .navigation li:first-child, .navigation li:nth-child(2), .navigation li:nth-child(3) {
         margin-right: 20px;
+    }
+
+    .two:hover ~ hr {
+        margin-left: 85px;
+    }
+
+    .three:hover ~ hr {
+        margin-left: 168px;
+        width: 100px;
+    }
+
+    .four:hover ~ hr {
+        margin-left: 292px;
     }
 }
 
