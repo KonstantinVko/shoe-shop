@@ -510,19 +510,19 @@ input::-webkit-input-placeholder {
     padding: 20px;
 }
 
-.most-popular-products-section .item:first-child .item-img {
+.most-popular-products-row:first-child .item:first-child .item-img {
     background: url("../img/5de52d845565f8b6377fb90b32e73d64 1.jpg") no-repeat;
 }
 
-.most-popular-products-section .item:nth-child(2) .item-img {
+.most-popular-products-row:first-child .item:nth-child(2) .item-img {
     background: url("../img/03cd3c74535c92b3f6d8bb1fb622d911 1.jpg") no-repeat;
 }
 
-.most-popular-products-section .item:nth-child(3) .item-img {
+.most-popular-products-row:last-child .item:first-child .item-img {
     background: url("../img/berwick_303_dark_brown 4.jpg") no-repeat;
 }
 
-.most-popular-products-section .item:last-child .item-img {
+.most-popular-products-row:last-child .item:last-child .item-img {
     background: url("../img/berwick_5150_dark_brown_suede 1.jpg") no-repeat;
 }
 .mpp-s-row {

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/shopping-cart-styles.css">
     <title>Ваша корзина</title>
 </head>
 <body>
@@ -93,13 +94,66 @@
                     </form>
                 </li>
                 <li id="open-modal"></li>
-                <li><span id="clicks" style="display: none"></span></li>
+                <li><span id="shopping-cart-header" style="display: none"></span></li>
             </ul>
         </div>
     </div>
 </header>
 <div class="main-container">
-    <h3></h3>
+    <h3 class="block-title-h3">Корзина</h3>
+    <p></p>
+    <div class="shopping-cart-table">
+        <div id="shopping-cart-item-1" style="display: none">
+            <div class="main-info">
+                <div class="sc-image"></div>
+                <div class="item-description">
+                    <p class="item-title">Parlament Oxfords</p>
+                    <p class="item-country">Пр-во: Англия</p>
+                    <p class="item-color">Цвет: Dark Brown</p>
+                </div>
+            </div>
+            <div class="sc-price">1026 руб.</div>
+            <div class="sc-delete-icon" onclick="hide1()">
+                <i class="far fa-trash-alt"></i>
+            </div>
+        </div>
+        <div id="shopping-cart-item-2" style="display:none;">
+            <div class="main-info">
+                <div class="sc-image"></div>
+                <div class="item-description">
+                    <p class="item-title">Loake Chester</p>
+                    <p class="item-country">Пр-во: Англия</p>
+                    <p class="item-color">Цвет: Brown</p>
+                </div>
+            </div>
+            <div class="sc-price">760 руб.</div>
+            <div class="sc-delete-icon" onclick="hide2()"><i class="far fa-trash-alt"></i></div>
+        </div>
+        <div id="shopping-cart-item-3" style="display:none;">
+            <div class="main-info">
+                <div class="sc-image"></div>
+                <div class="item-description">
+                    <p class="item-title">Berwick 303</p>
+                    <p class="item-country">Пр-во: Англия</p>
+                    <p class="item-color">Цвет: Dark Brown</p>
+                </div>
+            </div>
+            <div class="sc-price">700 руб.</div>
+            <div class="sc-delete-icon" onclick="hide3()"><i class="far fa-trash-alt"></i></div>
+        </div>
+        <div id="shopping-cart-item-4" style="display:none;">
+            <div class="main-info">
+                <div class="sc-image"></div>
+                <div class="item-description">
+                    <p class="item-title">Berwick 5150</p>
+                    <p class="item-country">Пр-во: Англия</p>
+                    <p class="item-color">Цвет: Dark Brown</p>
+                </div>
+            </div>
+            <div class="sc-price">580 руб.</div>
+            <div class="sc-delete-icon" onclick="hide3()"><i class="far fa-trash-alt"></i></div>
+        </div>
+    </div>
     <footer>
         <div class="footer-wrap">
             <div class="logo">
@@ -136,9 +190,9 @@
             </ul>
         </div>
     </footer>
-    <a href="https://www.onliner.by/">
-        <div id="shopping-cart" class="fixed-shopping-cart">
-            <span id="clicks1">0</span>
+    <a href="shopping-cart.html">
+        <div id="fixed-shopping-cart-body" class="fixed-shopping-cart" style="display: none">
+            <span id="fixed-shopping-cart">0</span>
         </div>
     </a>
 </div>
@@ -166,5 +220,7 @@
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
 <script src="js/training_chill.js"></script>
+<script src="js/stored-shopping-cart.js">
+</script>
 </body>
 </html>

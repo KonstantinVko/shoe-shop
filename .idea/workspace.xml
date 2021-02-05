@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="media q's">
-      <change afterPath="$PROJECT_DIR$/js/dfgdsfg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/new.js" afterDir="false" />
+    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="some unnecessary changes">
+      <change afterPath="$PROJECT_DIR$/img/03cd3c74535c92b3f6d8bb1fb622d911 1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/berwick_5150_dark_brown_suede 1 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/stored-shopping-cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/shopping-cart-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shopping-cart-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/training_chill.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/training_chill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -113,7 +117,8 @@
       <workItem from="1612333621911" duration="22494000" />
       <workItem from="1612426799520" duration="3727000" />
       <workItem from="1612430934436" duration="11979000" />
-      <workItem from="1612506727973" duration="601000" />
+      <workItem from="1612506727973" duration="11471000" />
+      <workItem from="1612523281417" duration="11201000" />
     </task>
     <task id="LOCAL-00001" summary="almost done, FOOTER!">
       <created>1612189960286</created>
@@ -192,7 +197,28 @@
       <option name="project" value="LOCAL" />
       <updated>1612430365208</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="some unnecessary changes">
+      <created>1612507598951</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612507598952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="some unnecessary changes">
+      <created>1612518167913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612518167913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="some unnecessary changes">
+      <created>1612519128269</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612519128269</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +242,7 @@
     <MESSAGE value="done?" />
     <MESSAGE value="did much, SHOPPING CART" />
     <MESSAGE value="media q's" />
-    <option name="LAST_COMMIT_MESSAGE" value="media q's" />
+    <MESSAGE value="some unnecessary changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some unnecessary changes" />
   </component>
 </project>

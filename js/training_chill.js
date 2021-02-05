@@ -1,4 +1,5 @@
-let shoppingCart = {};
+let shoppingCart = [];
+
 
 
 function render() {
@@ -9,28 +10,48 @@ function render() {
         document.getElementById('fixed-shopping-cart-body').style.display = 'flex';
         document.getElementById('fixed-shopping-cart').style.display = 'flex';
     }
+    localStorage["storedCart"] = JSON.stringify(shoppingCart);
 }
 
-function addItem1(){
-    shoppingCart.item = 'Parlament Oxfords';
+function addItem1() {
+    let item = {
+        'name': 'Parlament Oxfords',
+        'price': '1026 руб.',
+        'img':'../img/5de52d845565f8b6377fb90b32e73d64%201.jpg'
+    }
+    shoppingCart.push(item);
     render();
 }
 
-function addItem2(){
-    shoppingCart.item = 'Loake Chester';
-    render()
-}
-function addItem3(){
-    shoppingCart.item = 'Berwick 303';
-    render()
-}
-function addItem4(){
-    shoppingCart.item = 'Berwick 5150';
-    render()
+function addItem2() {
+    let item = {
+        'name': 'Loake Chester',
+        'price': '760 руб.',
+        'img':'../img/5de52d845565f8b6377fb90b32e73d64%201.jpg'
+    }
+    shoppingCart.push(item);
+    render();
 }
 
+function addItem3() {
+    let item = {
+        'name': 'Berwick 303',
+        'price': '700 руб.',
+        'img':'../img/5de52d845565f8b6377fb90b32e73d64%201.jpg'
+    }
+    shoppingCart.push(item);
+    render();
+}
 
-
+function addItem4() {
+    let item = {
+        'name': 'Berwick 5150',
+        'price': '580 руб.',
+        'img':'../img/5de52d845565f8b6377fb90b32e73d64%201.jpg'
+    }
+    shoppingCart.push(item);
+    render();
+}
 
 
 // Get the modal
@@ -43,22 +64,22 @@ let btn = document.getElementById("open-modal");
 let span = document.getElementsByClassName("close-modal")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function() {
+btn.onclick = function () {
     modal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
     modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target === modal) {
         modal.style.display = "none";
     }
 }
-$('.burger, .overlay').click(function(){
+$('.burger, .overlay').click(function () {
     $('.burger').toggleClass('clicked');
     $('.overlay').toggleClass('show');
     $('nav').toggleClass('show');
