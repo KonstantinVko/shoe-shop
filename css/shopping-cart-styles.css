@@ -47,3 +47,26 @@
 .main-info {
     width: 370px;
 }
+.shopping-cart-table > div.btn {
+    margin: 50px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background: rgba(175, 152, 113, 0.11);
+    color: #726040;
+}
+@media all and (max-width: 750px){
+    #shopping-cart-item-1, #shopping-cart-item-2, #shopping-cart-item-3, #shopping-cart-item-4 {
+    padding: 0 50px 0 0;
+}
+}
+@media all and (max-width: 630px){
+    .main-info {
+        flex-direction: column;
+        width: 200px;
+    }
+    #shopping-cart-item-1, #shopping-cart-item-2, #shopping-cart-item-3, #shopping-cart-item-4 {
+        padding: 20px 20px 20px 0;
+    }
+}

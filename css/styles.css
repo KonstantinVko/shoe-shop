@@ -386,7 +386,9 @@ input::-webkit-input-placeholder {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../img/big-shadow-texute.png");
+    background: linear-gradient(
+            90deg
+            , rgba(0, 0, 0, 0.17) 0%, rgba(44, 44, 47, 0.27) 0%);
 }
 
 .brand-menu {
@@ -525,6 +527,7 @@ input::-webkit-input-placeholder {
 .most-popular-products-row:last-child .item:last-child .item-img {
     background: url("../img/berwick_5150_dark_brown_suede 1.jpg") no-repeat;
 }
+
 .mpp-s-row {
     width: 100%;
     display: flex;
@@ -839,6 +842,7 @@ footer ul li:not(li:first-child) {
     background: red;
     color: white;
 }
+
 #fixed-shopping-cart {
     align-items: center;
     justify-content: center;
@@ -1700,12 +1704,11 @@ nav ul.sub li a:hover {
         width: 100%;
         text-align: center;
     }
+
     .top-galleria-shadow {
         opacity: 0;
     }
-    .big-shadow {
-        background: linear-gradient(90deg, rgba(0,0,0,0.1741071428571429) 0%, rgba(2,0,36,0.2741071428571429) 0%);
-    }
+
     .bottom-galleria > h3 {
         margin: 0;
     }
@@ -1748,49 +1751,62 @@ nav ul.sub li a:hover {
         background: rgba(175, 152, 113, 0.11);
         color: #726040;
     }
+
     .most-popular-products-section {
         flex-direction: row;
         overflow-y: hidden;
         overflow-x: scroll;
     }
+
     .most-popular-products-section .most-popular-products-row > div {
         width: 270px;
         min-width: 270px;
     }
+
     .most-popular-products-row:first-child {
         margin-right: 20px;
     }
+
     .mpp-s-row {
         flex-direction: row;
         width: auto;
     }
 }
-@media all and (max-width: 560px){
+
+@media all and (max-width: 560px) {
     .main-container {
         padding: 0 10px;
     }
+
     .left-block {
         height: 368px;
     }
+
     .left-block-wrap {
         height: 80%;
         width: 95%;
     }
+
     .galleria-section .galleria-row > div {
         height: 200px;
-}
+    }
+
     .galleria-section .galleria-row:first-child > div:first-child, .galleria-section .galleria-row:first-child > div:last-child, .galleria-section .galleria-row:last-child > div:first-child, .galleria-section .galleria-row:last-child > div:first-child {
         background-position: -21px -62px;
     }
+
     .top-banner .left-block {
         height: 250px;
     }
+
     .top-banner .left-block h6 {
         font-size: 30px;
     }
+
     .galleria-section p {
         font-size: 25px;
     }
+
     .galleria-section .galleria-row:last-child > div:last-child {
         background-position: -6px -34px;
     }

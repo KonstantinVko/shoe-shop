@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="fonts/stylesheet.css">
-    <link rel="stylesheet" href="css/shopping-cart-styles.css">
-    <title>Корзина</title>
+    <link rel="stylesheet" href="css/product-card.css">
+    <title>Parlament Oxfords купить в Минске</title>
 </head>
 <body>
 <header>
@@ -100,60 +100,64 @@
     </div>
 </header>
 <div class="main-container">
-    <h3 class="block-title-h3">Корзина</h3>
-    <p></p>
-    <div class="shopping-cart-table">
-        <div id="shopping-cart-item-1" style="display: none">
-            <div class="main-info">
-                <div class="sc-image"></div>
-                <div class="item-description">
-                    <p class="item-title">Parlament Oxfords</p>
-                    <p class="item-country">Пр-во: Англия</p>
-                    <p class="item-color">Цвет: Dark Brown</p>
-                </div>
+    <div class="product">
+        <div class="product-header">
+            <div class="product-image">
+                <img src="img/parliament-big-image.png" width="652" height="652" alt="parliament oxfords">
             </div>
-            <div class="sc-price">1026 руб.</div>
-            <div class="sc-delete-icon" onclick="hide1()">
-                <i class="far fa-trash-alt"></i>
+            <div class="product-info">
+                <h3 class="block-title-h3">Parlament Oxfords</h3>
+                <div class="sub-info">
+                    <p class="availability">В наличии</p>
+                    <p class="brand">Parlament</p>
+                    <p class="country">Англия</p>
+                    <p class="type">Челси</p>
+                    <p class="color">Black</p>
+                    <div class="price">1026 руб.</div>
+                    <label>
+                        Размер
+                        <input type="number" value="size" max="46" min="36">
+                    </label>
+                </div>
+                <div class="btn">В корзину</div>
             </div>
         </div>
-        <div id="shopping-cart-item-2" style="display:none;">
-            <div class="main-info">
-                <div class="sc-image"></div>
-                <div class="item-description">
-                    <p class="item-title">Loake Chester</p>
-                    <p class="item-country">Пр-во: Англия</p>
-                    <p class="item-color">Цвет: Brown</p>
-                </div>
+        <div class="product-description">
+            <div class="description">
+                <ul>
+                    <li>
+                        <input type="checkbox">
+                        <i></i>
+                        <h2>Описание</h2>
+                        <p>Важным плюсом этих коричневых челси является конструкция Goodyear Welted — она придаёт
+                            ботинкам прочность, делает их износостойкими и комфортными. Полностью кожаная подкладка и
+                            верх из качественной телячьей кожи тоже положительно влияют на комфорт и позволяют ногам
+                            «дышать». Подошва, выполненная частично из кожи и частично из резины, может похвастаться
+                            воздухопроницаемостью и при этом снабжена базовой защитой от влаги.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2>Описание</h2>
+                        <p>Важным плюсом этих коричневых челси является конструкция Goodyear Welted — она придаёт
+                            ботинкам прочность, делает их износостойкими и комфортными. Полностью кожаная подкладка и
+                            верх из качественной телячьей кожи тоже положительно влияют на комфорт и позволяют ногам
+                            «дышать». Подошва, выполненная частично из кожи и частично из резины, может похвастаться
+                            воздухопроницаемостью и при этом снабжена базовой защитой от влаги.</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2>Описание</h2>
+                        <p>Важным плюсом этих коричневых челси является конструкция Goodyear Welted — она придаёт
+                            ботинкам прочность, делает их износостойкими и комфортными. Полностью кожаная подкладка и
+                            верх из качественной телячьей кожи тоже положительно влияют на комфорт и позволяют ногам
+                            «дышать». Подошва, выполненная частично из кожи и частично из резины, может похвастаться
+                            воздухопроницаемостью и при этом снабжена базовой защитой от влаги.</p>
+                    </li>
+                </ul>
             </div>
-            <div class="sc-price">760 руб.</div>
-            <div class="sc-delete-icon" onclick="hide2()"><i class="far fa-trash-alt"></i></div>
         </div>
-        <div id="shopping-cart-item-3" style="display:none;">
-            <div class="main-info">
-                <div class="sc-image"></div>
-                <div class="item-description">
-                    <p class="item-title">Berwick 303</p>
-                    <p class="item-country">Пр-во: Англия</p>
-                    <p class="item-color">Цвет: Dark Brown</p>
-                </div>
-            </div>
-            <div class="sc-price">700 руб.</div>
-            <div class="sc-delete-icon" onclick="hide3()"><i class="far fa-trash-alt"></i></div>
-        </div>
-        <div id="shopping-cart-item-4" style="display:none;">
-            <div class="main-info">
-                <div class="sc-image"></div>
-                <div class="item-description">
-                    <p class="item-title">Berwick 5150</p>
-                    <p class="item-country">Пр-во: Англия</p>
-                    <p class="item-color">Цвет: Dark Brown</p>
-                </div>
-            </div>
-            <div class="sc-price">580 руб.</div>
-            <div class="sc-delete-icon" onclick="hide3()"><i class="far fa-trash-alt"></i></div>
-        </div>
-        <div class="btn">Оформить заказ</div>
     </div>
     <footer>
         <div class="footer-wrap">
