@@ -234,11 +234,12 @@ input::-webkit-input-placeholder {
     width: 70%;
     height: 482px;
     background: url("../img/top-banner-main.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
 .left-block-wrap {

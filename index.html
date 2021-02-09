@@ -485,6 +485,22 @@
     document.getElementById("shopping-cart-header-link").onclick = function () {
         location.href = "shopping-cart.html";
     };
+    $(document).ready(function(e){
+        $(".left-block").on("mouseenter",function(){
+            $(this).css({
+                "background-size" : "105% 105%",
+                "background-position" : "center",
+                "transition" :"background-size 0.4s ease"
+            });
+        });
+        $(".left-block").on("mouseleave",function(){
+            $(this).css({
+                "background-size" : "100% 100%",
+                "background-position" : "cover",
+                "transition" :"background-size 0.4s ease"
+            });
+        });
+    });
 </script>
 </body>
 </html>
