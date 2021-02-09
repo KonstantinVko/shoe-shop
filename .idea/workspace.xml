@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="media q's">
-      <change afterPath="$PROJECT_DIR$/Parlament-oxfords-product-card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/product-card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/parliament-big-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/asdsfdgdfhgdf.js" afterDir="false" />
+    <list default="true" id="56c981f7-9fb3-41b9-8ea2-586058195381" name="Default Changelist" comment="some unnecessary changes">
+      <change afterPath="$PROJECT_DIR$/img/gallery-oxfords.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/parliament-big-image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/parliament-big-image-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/parliament-big-image-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/shopping-cart-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/shopping-cart-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parlament-oxfords-product-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/Parlament-oxfords-product-card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product-card.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/testingjs.html" beforeDir="false" afterPath="$PROJECT_DIR$/js/testingjs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/training_chill.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,7 +67,6 @@
   </component>
   <component name="ProjectId" id="1nn91hP7ePAuOwArWsiZoAOuAVi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -86,13 +85,21 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="main-scripts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/main-scripts.js" working-dir="$PROJECT_DIR$/js">
+  <component name="RunManager" selected="Node.js.dfgdsfg.js">
+    <configuration name="dfgdsfg.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/dfgdsfg.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="new.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/new.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="training_chill.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/training_chill.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main-scripts.js" />
+        <item itemvalue="Node.js.dfgdsfg.js" />
+        <item itemvalue="Node.js.new.js" />
+        <item itemvalue="Node.js.training_chill.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +118,10 @@
       <workItem from="1612177532779" duration="10634000" />
       <workItem from="1612247524928" duration="24910000" />
       <workItem from="1612333621911" duration="22494000" />
-      <workItem from="1612426799520" duration="3329000" />
+      <workItem from="1612426799520" duration="3727000" />
+      <workItem from="1612430934436" duration="11979000" />
+      <workItem from="1612506727973" duration="11471000" />
+      <workItem from="1612523281417" duration="11201000" />
     </task>
     <task id="LOCAL-00001" summary="almost done, FOOTER!">
       <created>1612189960286</created>
@@ -183,7 +193,35 @@
       <option name="project" value="LOCAL" />
       <updated>1612429289763</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="media q's">
+      <created>1612430365208</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612430365208</updated>
+    </task>
+    <task id="LOCAL-00012" summary="some unnecessary changes">
+      <created>1612507598951</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612507598952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="some unnecessary changes">
+      <created>1612518167913</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612518167913</updated>
+    </task>
+    <task id="LOCAL-00014" summary="some unnecessary changes">
+      <created>1612519128269</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612519128269</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +245,7 @@
     <MESSAGE value="done?" />
     <MESSAGE value="did much, SHOPPING CART" />
     <MESSAGE value="media q's" />
-    <option name="LAST_COMMIT_MESSAGE" value="media q's" />
+    <MESSAGE value="some unnecessary changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="some unnecessary changes" />
   </component>
 </project>

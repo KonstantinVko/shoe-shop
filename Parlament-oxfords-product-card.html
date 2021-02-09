@@ -93,7 +93,7 @@
                         </label>
                     </form>
                 </li>
-                <li id="open-modal"></li>
+                <li></li>
                 <li><span id="shopping-cart-header" style="display: none"></span></li>
             </ul>
         </div>
@@ -102,8 +102,32 @@
 <div class="main-container">
     <div class="product">
         <div class="product-header">
+            <h3 class="block-title-h3">Parlament Oxfords</h3>
             <div class="product-image">
-                <img src="img/parliament-big-image.png" width="652" height="652" alt="parliament oxfords">
+                <div id="js-gallery" class="gallery">
+
+                    <!--Gallery Hero-->
+                    <div class="gallery__hero">
+                        <img src="img/parliament-big-image.png" alt=" ">
+                    </div>
+                    <!--Gallery Hero-->
+
+                    <!--Gallery Thumbs-->
+                    <div class="gallery__thumbs">
+                        <a href="img/parliament-big-image.png" data-gallery="thumb" class="is-active">
+                            <img src="img/parliament-big-image.png" alt=" ">
+                        </a>
+                        <a href="img/parliament-big-image-2.jpg" data-gallery="thumb">
+                            <img src="img/parliament-big-image-2.jpg" alt=" ">
+                        </a>
+                        <a href="img/gallery-oxfords.jpg" data-gallery="thumb">
+                            <img src="img/gallery-oxfords.jpg" alt=" ">
+                        </a>
+                    </div>
+                    <!--Gallery Thumbs-->
+
+                </div><!--.gallery-->
+                <!-- Gallery -->
             </div>
             <div class="product-info">
                 <h3 class="block-title-h3">Parlament Oxfords</h3>
@@ -119,7 +143,7 @@
                         <input type="number" value="size" max="46" min="36">
                     </label>
                 </div>
-                <div class="btn">В корзину</div>
+                <div id="open-modal" class="btn">Купить в 1 клик</div>
             </div>
         </div>
         <div class="product-description">
@@ -138,22 +162,34 @@
                     <li>
                         <input type="checkbox" checked>
                         <i></i>
-                        <h2>Описание</h2>
-                        <p>Важным плюсом этих коричневых челси является конструкция Goodyear Welted — она придаёт
-                            ботинкам прочность, делает их износостойкими и комфортными. Полностью кожаная подкладка и
-                            верх из качественной телячьей кожи тоже положительно влияют на комфорт и позволяют ногам
-                            «дышать». Подошва, выполненная частично из кожи и частично из резины, может похвастаться
-                            воздухопроницаемостью и при этом снабжена базовой защитой от влаги.</p>
+                        <h2>Гарантия</h2>
+                        <p>Гарантийный срок эксплуатации после покупки составляет 30(календарных дней) с учетом сроков
+                            сезонности на отдельные виды обуви.
+
+                            Для зимней обуви – с 15 ноября; весенней и осенней обуви - соответственно с 1 марта и 15
+                            сентября; для обуви круглосезонного типа (туфли, полуботинки, туфли открытые) гарантий срок
+                            исчисляется с момента продажи.
+
+                            Гарантийные сроки носки не распространяются на обувь с отклеенными в процессе эксплуатации
+                            вкладными стельками, на обувь с дефектами, вызванными несоблюдением требований инструкции по
+                            эксплуатации вложенную в коробку, а так же на сменные детали (набойки, шнурки, пряжки,
+                            украшения и тд.), застежки – молнии.</p>
                     </li>
                     <li>
                         <input type="checkbox" checked>
                         <i></i>
-                        <h2>Описание</h2>
-                        <p>Важным плюсом этих коричневых челси является конструкция Goodyear Welted — она придаёт
-                            ботинкам прочность, делает их износостойкими и комфортными. Полностью кожаная подкладка и
-                            верх из качественной телячьей кожи тоже положительно влияют на комфорт и позволяют ногам
-                            «дышать». Подошва, выполненная частично из кожи и частично из резины, может похвастаться
-                            воздухопроницаемостью и при этом снабжена базовой защитой от влаги.</p>
+                        <h2>Доставка</h2>
+                        <p>
+                            ✔ Доставка осуществляется бесплатно<br>
+                            ✔ Доставка курьером в любую точку Республики Беларусь<br>
+                            - E-mail и SMS-информирование о дате доставки и изменении статуса отправления;<br>
+                            - доставка в будние дни с 9:00 до 18:00 (для жителей Минска, Бреста, Витебска, Гомеля,<br>
+                            Гродно, Могилева, Бобруйска, Барановичей и Полоцка доступна также доставка в вечернее время<br>
+                            с 18:00 до 20:00);
+                            - время нахождения курьера на адресе не более 20 минут;<br>
+                            - примерка, проверка по качеству, количеству, ассортименту;<br>
+                            - при себе иметь документ, удостоверяющий личность;<br>
+                        </p>
                     </li>
                 </ul>
             </div>
@@ -213,7 +249,7 @@
         </div>
         <div class="group">
             <input type="email" id="email-modal"><span class="highlight"></span><span class="bar"></span>
-            <label for="email-modal">Ваш email</label>
+            <label for="email-modal">Телефон:</label>
         </div>
         <button type="button" class="button buttonBlue">Отправить
             <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
@@ -226,6 +262,110 @@
         crossorigin="anonymous"></script>
 <script src="js/main-scripts.js"></script>
 <script src="js/stored-shopping-cart.js">
+</script>
+<script>
+    var App = (function () {
+
+        //=== Use Strict ===//
+        'use strict';
+
+        //=== Private Variables ===//
+        var gallery = $('#js-gallery');
+
+        //=== Gallery Object ===//
+        var Gallery = {
+            zoom: function (imgContainer, img) {
+                var containerHeight = imgContainer.outerHeight(),
+                    src = img.attr('src');
+
+                if (src.indexOf('/products/normal/') !== -1) {
+                    // Set height of container
+                    imgContainer.css("height", containerHeight);
+
+                    // Switch hero image src with large version
+                    img.attr('src', src.replace('/products/normal/', '/products/zoom/'));
+
+                    // Add zoomed class to gallery container
+                    gallery.addClass('is-zoomed');
+
+                    // Enable image to be draggable
+                    img.draggable({
+                        drag: function (event, ui) {
+                            ui.position.left = Math.min(100, ui.position.left);
+                            ui.position.top = Math.min(100, ui.position.top);
+                        }
+                    });
+                } else {
+                    // Ensure height of container fits image
+                    imgContainer.css("height", "auto");
+
+                    // Switch hero image src with normal version
+                    img.attr('src', src.replace('/products/zoom/', '/products/normal/'));
+
+                    // Remove zoomed class to gallery container
+                    gallery.removeClass('is-zoomed');
+                }
+            },
+            switch: function (trigger, imgContainer) {
+                var src = trigger.attr('href'),
+                    thumbs = trigger.siblings(),
+                    img = trigger.parent().prev().children();
+
+                // Add active class to thumb
+                trigger.addClass('is-active');
+
+                // Remove active class from thumbs
+                thumbs.each(function () {
+                    if ($(this).hasClass('is-active')) {
+                        $(this).removeClass('is-active');
+                    }
+                });
+
+                // Reset container if in zoom state
+                if (gallery.hasClass('is-zoomed')) {
+                    gallery.removeClass('is-zoomed');
+                    imgContainer.css("height", "auto");
+                }
+
+                // Switch image source
+                img.attr('src', src);
+            }
+        };
+
+        //=== Public Methods ===//
+        function init() {
+
+            // Listen for clicks on anchors within gallery
+            gallery.delegate('a', 'click', function (event) {
+                var trigger = $(this);
+                var triggerData = trigger.data("gallery");
+
+                if (triggerData === 'zoom') {
+                    var imgContainer = trigger.parent(),
+                        img = trigger.siblings();
+                    Gallery.zoom(imgContainer, img);
+                } else if (triggerData === 'thumb') {
+                    var imgContainer = trigger.parent().siblings();
+                    Gallery.switch(trigger, imgContainer);
+                } else {
+                    return;
+                }
+
+                event.preventDefault();
+            });
+
+        }
+
+        //=== Make Methods Public ===//
+        return {
+            init: init
+        };
+
+    })();
+
+    App.init();
+
+
 </script>
 </body>
 </html>

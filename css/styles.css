@@ -109,6 +109,7 @@ hr {
 }
 
 .user-icons li:nth-child(2) {
+    display: none;
     width: 27px;
     height: 27px;
     background: url("../img/user.png");
@@ -124,6 +125,7 @@ hr {
     height: 27px;
     background: url("../img/shopping-cart.png");
     position: relative;
+    cursor: pointer;
 }
 
 .user-icons li:not(li:last-child) {
@@ -349,6 +351,7 @@ input::-webkit-input-placeholder {
 .card .card-content p {
     text-align: center;
     font-weight: 200;
+    padding: 0 10px;
 }
 
 .card:hover:before {
@@ -627,6 +630,9 @@ input::-webkit-input-placeholder {
     font-weight: bold;
 }
 
+.item-title:hover a{
+    text-decoration: underline;
+}
 .read-banner {
     display: flex;
     margin-top: 100px;

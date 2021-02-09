@@ -79,6 +79,8 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+
+
 $('.burger, .overlay').click(function () {
     $('.burger').toggleClass('clicked');
     $('.overlay').toggleClass('show');
